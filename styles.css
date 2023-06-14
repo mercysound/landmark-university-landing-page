@@ -5,6 +5,12 @@ body{
 }
 .main-bg{
   background: url(./images/intro_img.jpg);
-  background-size: cover;
+  background-size: 100%;
   height: 70vh;
+}
+
+@media (max-width: 576px){
+
+  .containe div{
+  }
 }
