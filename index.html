@@ -8,12 +8,10 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="styles.css">
   <script src="vanilla.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body style="margin: 0;">
-  
- <!-- <div class="header-area">
+ <div class="header-area">
   <div class="main-header">
     <div class="header-top bg-dark" style="width: 100%;">
       <div class="container p-2">
@@ -56,9 +54,9 @@
       <span class="text-body-secondary">Toggleable via the navbar brand.</span>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="position: sticky; top: 0; right: 0; left: 0;">
     <div class="col-xl-12 col-lg-12 col-md-12">
-      <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top p-2 m-0" style="position: sticky; top: 0; right: 0; left: 0;">
+      <nav class="navbar z-3 navbar-expand-sm navbar-light bg-light sticky-top p-2 m-0">
         <div class="container d-flex mx-auto align-items-center m-0">
           <img src="./images/uniland.JPG" alt="">
           <div
@@ -81,14 +79,15 @@
                 <li>Contact</li>
                 <div class="d-none d-lg-block d-flex align-items-center p-0">
                   <a href="" style="text-decoration: none;">Call Us<span class="btn" style="border-right: solid grey 2px;border-radius: 0px;">+2348061240394</span></a>
-                  <i class="https://preview.colorlib.com/theme/universityedu/#"></i>
+                  <i class="fab fa-accusoft"></i>
+                  <div class="d-inline-flex gap-3 ms-1">
+                    <a class="" href="https://www.fb.com/sai4ull"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                  </div>
                 </div>
               </ul>
-              <div class="d-flex align-items-center">
-                <ul>
-                  <li class="fas fa-envelop"></li>
-                </ul>
-              </div>
           </div>
           </div>
         </div>
@@ -97,7 +96,7 @@
   </div>
  </div>
 
- <main class="main-bg text-light" style="">
+ <main class="main-bg text-light" id="about-mainbg">
   <div class="container">
     <div class="row">
         <div class="col-lg-12 col-xl-12 col-sm-6 mx-auto" style="padding: 9%;">
@@ -199,8 +198,8 @@
       </div>
     </div>
   </section>
-  <!-- top stories bbegan here -->
-  <!-- <section class="top-story m-5 p-5">
+  top stories bbegan here
+  <section class="top-story m-5 p-5">
     <div class="container">
       <div class="d-flex justify-space-between mt-5"> 
       <h2 class="fw-bold">TOP STORIES</h2>
@@ -260,14 +259,14 @@
         </div>
     </div>
 </div>
-<div class="containe" >
-  <di class="row d-flex align-items-center justify-content-center">
-    <div class="col-sm-12 col-lg-6">
+<div class="containe" style="">
+  <div class="row d-flex align-items-center justify-content-center">
+    <div class="col-sm-12 col-lg-5 col-xl-6">
       <div class="ps-5">
         <img class="" src="./images/trusted by 6k pic.JPG" alt="">
       </div>
     </div>
-    <div class="col-sm-12 col-lg-6 p-5 text-light fw-normal bg-success" >
+    <div class="col-sm-12 col-lg- col-xl-6 p-5 text-light fw-normal bg-success">
       <h1 class="fs-1 fw-bold">TRUSTED BY OVER
         6000+ STUDENTS</h1><br>
       <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas felis felis, vulputate sit amet mauris et, semper aliquam ligula. Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi vitae tincidunt malesuada massa</h4><br>
@@ -276,9 +275,9 @@
       <a href="#" class="btn text-light bg-none " style="border-bottom:  solid #fff 2px; border-radius: 0px;">Join Now</a>
     </div>
 </div>
-</div> -->
-<footer class="about bg-dark">
-  <div class="container pt-5">
+</div>
+<footer class="about pt-5 " style="background-color: #32404D;">
+  <div class="container pt-5 mt-5 mb-5 pb-5">
     <div class="row justify-content-center">
       <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6">
           <img src="./images/uniland.JPG" alt="" width="100%">
@@ -323,20 +322,31 @@
             <h6>Subscribe newsletter to get updates.</h6>
             <div class="input-group mb-3">
               <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" >
-              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+              <button class="btn btn-success btn-outline-secondary" type="button" id="button-addon2"><img src="https://preview.colorlib.com/theme/universityedu/assets/img/icon/Icon-send.svg" alt=""></button>
             </div>
             <div class="grid gap-3">
               <a class="" href="https://www.fb.com/sai4ull"><i class="fab fa-facebook"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-linkedin-in"></i></a>
               <a href="#"><i class="fab fa-youtube"></i></a>
+              <i class="fa-brands fa-facebook fa-shake fa-2xs" style="color: #1f513a;"></i>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="container footer-bellown text-center text-light border-top border-light">
+    <p> Copyright ©2023 All rights reserved | This template is made with <span><a href="#"><i class="fab fa-instagram" style="color: rgba(red, green, blue, alpha);"></i></a></span> by Colorlib
+    </p>
+  </div>
 </footer>
+<a class="justify-content-center" title="go to top" href="#about-mainbg">
+<div class="back-top bg-success rounded-circle d-flex justify-content-center align-items-center" style=" width: 50px; height: 50px; position: fixed; z-index: 2; right: 31px;
+bottom: 18px;">
+    <i class="fas fa-long-arrow-alt-up"></i>
+  </div>
+  </a>
   <script src="./js/bootstrap.js" defer></script>
 </body>
 </html>  
